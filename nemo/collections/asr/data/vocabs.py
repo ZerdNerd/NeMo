@@ -25,9 +25,9 @@ import nltk
 from nemo.collections.common.parts.preprocessing import parsers
 
 try:
-    import g2p_pl  # noqa
+    import g2p_en  # noqa
 
-    _g2p = g2p_pl.G2p()
+    _g2p = g2p_en.G2p()
     _g2p.variables = None
 
     HAVE_G2P = True
