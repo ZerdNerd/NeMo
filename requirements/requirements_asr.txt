@@ -14,7 +14,7 @@ kaldi-python-io
 kaldiio
 scipy
 pandas
-g2p_en
+g2p_pl
 pydub
 pyannote.core
 pyannote.metrics
