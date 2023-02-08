@@ -341,8 +341,8 @@ class Phonemes(Base):
                 ps.append(p)
 
         # Remove trailing spaces
-        while ps[-1] == space:
-            ps.pop()
+        #while ps[-1] == space:
+        #    ps.pop()
 
         if self.pad_with_space:
             ps = [space] + ps + [space]
