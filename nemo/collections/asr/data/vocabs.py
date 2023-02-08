@@ -256,15 +256,13 @@ class Phonemes(Base):
 
     # fmt: off
     VOWELS = (
-        'AA', 'AE', 'AH', 'AO', 'AW',
-        'AY', 'EH', 'ER', 'EY', 'IH',
-        'IY', 'OW', 'OY', 'UH', 'UW',
+        'AA', 'AO', 'EH', 'IY', 'UW',
     )
     CONSONANTS = (
-        'B', 'CH', 'D', 'DH', 'F', 'G',
-        'HH', 'JH', 'K', 'L', 'M', 'N',
-        'NG', 'P', 'R', 'S', 'SH', 'T',
-        'TH', 'V', 'W', 'Y', 'Z', 'ZH',
+        'B', 'CH', 'D', 'F', 'G', 'HH',
+        'JH', 'K', 'L', 'M', 'N', 'NG',
+        'P', 'R', 'S', 'SH', 'T', 'UW',
+        'V', 'W', 'Y', 'Z', 'ZH',
     )
     # fmt: on
 
